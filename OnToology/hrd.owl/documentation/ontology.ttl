@@ -1,0 +1,327 @@
+@prefix : <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#> .
+
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#hasJob
+:hasJob rdf:type owl:ObjectProperty ;
+        rdfs:subPropertyOf owl:topObjectProperty ;
+        owl:inverseOf :jobOf ;
+        rdfs:domain :department ;
+        rdfs:range :role .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#hasMember
+:hasMember rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty ;
+           owl:inverseOf :memberOf ;
+           rdfs:domain :department ;
+           rdfs:range :employee .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#hasRole
+:hasRole rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf owl:topObjectProperty ;
+         owl:inverseOf :roleOf ;
+         rdfs:domain :employee ;
+         rdfs:range :role .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#jobOf
+:jobOf rdf:type owl:ObjectProperty ;
+       rdfs:subPropertyOf owl:topObjectProperty ;
+       rdfs:domain :role ;
+       rdfs:range :department .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#memberOf
+:memberOf rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty ;
+          rdfs:domain :employee ;
+          rdfs:range :department .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#roleOf
+:roleOf rdf:type owl:ObjectProperty ;
+        rdfs:subPropertyOf owl:topObjectProperty ;
+        rdfs:domain :role ;
+        rdfs:range :employee .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#age
+:age rdf:type owl:DatatypeProperty ;
+     rdfs:subPropertyOf owl:topDataProperty ;
+     rdfs:domain :employee ;
+     rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#attrition
+:attrition rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdfs:domain :employee ;
+           rdfs:range xsd:boolean .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#businessTravel
+:businessTravel rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf owl:topDataProperty ;
+                rdfs:domain :employee ;
+                rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#dailyRate
+:dailyRate rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdfs:domain :employee ;
+           rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#deptName
+:deptName rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf owl:topDataProperty ;
+          rdfs:domain :department ;
+          rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#distanceFromHome
+:distanceFromHome rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf owl:topDataProperty ;
+                  rdfs:domain :employee ;
+                  rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#education
+:education rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdfs:domain :employee ;
+           rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#educationField
+:educationField rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf owl:topDataProperty ;
+                rdfs:domain :employee ;
+                rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#empID
+:empID rdf:type owl:DatatypeProperty ;
+       rdfs:subPropertyOf owl:topDataProperty ;
+       rdfs:domain :employee ;
+       rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#envSatisfaction
+:envSatisfaction rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf owl:topDataProperty ;
+                 rdfs:domain :employee ;
+                 rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#gender
+:gender rdf:type owl:DatatypeProperty ;
+        rdfs:subPropertyOf owl:topDataProperty ;
+        rdfs:domain :employee ;
+        rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#hourlyRate
+:hourlyRate rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty ;
+            rdfs:domain :employee ;
+            rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#jobInvolvement
+:jobInvolvement rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf owl:topDataProperty ;
+                rdfs:domain :employee ;
+                rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#jobLevel
+:jobLevel rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf owl:topDataProperty ;
+          rdfs:domain :employee ;
+          rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#jobSatisfaction
+:jobSatisfaction rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf owl:topDataProperty ;
+                 rdfs:domain :employee ;
+                 rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#maritalStatus
+:maritalStatus rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty ;
+               rdfs:domain :employee ;
+               rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#monthlyIncome
+:monthlyIncome rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty ;
+               rdfs:domain :employee ;
+               rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#monthlyRate
+:monthlyRate rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty ;
+             rdfs:domain :employee ;
+             rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#numCompaniesWorked
+:numCompaniesWorked rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf owl:topDataProperty ;
+                    rdfs:domain :employee ;
+                    rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#over18
+:over18 rdf:type owl:DatatypeProperty ;
+        rdfs:subPropertyOf owl:topDataProperty ;
+        rdfs:domain :employee ;
+        rdfs:range xsd:boolean .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#overTime
+:overTime rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf owl:topDataProperty ;
+          rdfs:domain :employee ;
+          rdfs:range xsd:boolean .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#percentSalaryHike
+:percentSalaryHike rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf owl:topDataProperty ;
+                   rdfs:domain :employee ;
+                   rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#performanceRating
+:performanceRating rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf owl:topDataProperty ;
+                   rdfs:domain :employee ;
+                   rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#relationshipSatisfaction
+:relationshipSatisfaction rdf:type owl:DatatypeProperty ;
+                          rdfs:subPropertyOf owl:topDataProperty ;
+                          rdfs:domain :employee ;
+                          rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#roleName
+:roleName rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf owl:topDataProperty ;
+          rdfs:domain :role ;
+          rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#standardHours
+:standardHours rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty ;
+               rdfs:domain :employee ;
+               rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#stockOptionLevel
+:stockOptionLevel rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf owl:topDataProperty ;
+                  rdfs:domain :employee ;
+                  rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#totalWorkingYears
+:totalWorkingYears rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf owl:topDataProperty ;
+                   rdfs:domain :employee ;
+                   rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#trainingTimesLastYear
+:trainingTimesLastYear rdf:type owl:DatatypeProperty ;
+                       rdfs:subPropertyOf owl:topDataProperty ;
+                       rdfs:domain :employee ;
+                       rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#workLifeBalance
+:workLifeBalance rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf owl:topDataProperty ;
+                 rdfs:domain :employee ;
+                 rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#yearsAtCompany
+:yearsAtCompany rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf owl:topDataProperty ;
+                rdfs:domain :employee ;
+                rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#yearsInCurrentRole
+:yearsInCurrentRole rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf owl:topDataProperty ;
+                    rdfs:domain :employee ;
+                    rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#yearsSinceLastPromotion
+:yearsSinceLastPromotion rdf:type owl:DatatypeProperty ;
+                         rdfs:subPropertyOf owl:topDataProperty ;
+                         rdfs:domain :employee ;
+                         rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#yearsWithCurrManager
+:yearsWithCurrManager rdf:type owl:DatatypeProperty ;
+                      rdfs:subPropertyOf owl:topDataProperty ;
+                      rdfs:domain :employee ;
+                      rdfs:range xsd:integer .
+
+
+###  http://www.w3.org/2002/07/owl#topDataProperty
+owl:topDataProperty rdfs:subPropertyOf owl:topDataProperty ;
+                    rdfs:domain :employee ;
+                    rdfs:range xsd:integer .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#department
+:department rdf:type owl:Class ;
+            rdfs:subClassOf owl:Thing .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#employee
+:employee rdf:type owl:Class ;
+          rdfs:subClassOf owl:Thing .
+
+
+###  http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#role
+:role rdf:type owl:Class ;
+      rdfs:subClassOf owl:Thing .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
