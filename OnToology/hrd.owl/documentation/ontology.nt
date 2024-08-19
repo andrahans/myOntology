@@ -1,0 +1,289 @@
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#hasJob
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#hasJob> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#hasJob> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#hasJob> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#jobOf> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#hasJob> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#department> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#hasJob> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#role> .
+# 
+# http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#hasMember
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#hasMember> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#hasMember> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#hasMember> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#memberOf> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#hasMember> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#department> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#hasMember> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#employee> .
+# 
+# http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#hasRole
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#hasRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#hasRole> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#hasRole> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#roleOf> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#hasRole> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#employee> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#hasRole> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#role> .
+# 
+# http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#jobOf
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#jobOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#jobOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#jobOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#role> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#jobOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#department> .
+# 
+# http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#memberOf
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#memberOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#memberOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#memberOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#employee> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#memberOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#department> .
+# 
+# http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#roleOf
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#roleOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#roleOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#roleOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#role> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#roleOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#employee> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#age
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#age> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#age> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#age> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#employee> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#age> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#attrition
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#attrition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#attrition> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#attrition> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#employee> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#attrition> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#businessTravel
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#businessTravel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#businessTravel> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#businessTravel> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#employee> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#businessTravel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#dailyRate
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#dailyRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#dailyRate> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#dailyRate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#employee> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#dailyRate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#deptName
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#deptName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#deptName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#deptName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#department> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#deptName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#distanceFromHome
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#distanceFromHome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#distanceFromHome> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#distanceFromHome> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#employee> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#distanceFromHome> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#education
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#education> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#education> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#education> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#employee> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#education> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#educationField
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#educationField> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#educationField> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#educationField> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#employee> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#educationField> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#empID
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#empID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#empID> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#empID> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#employee> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#empID> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#envSatisfaction
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#envSatisfaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#envSatisfaction> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#envSatisfaction> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#employee> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#envSatisfaction> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#gender
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#gender> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#gender> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#gender> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#employee> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#gender> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#hourlyRate
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#hourlyRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#hourlyRate> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#hourlyRate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#employee> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#hourlyRate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#jobInvolvement
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#jobInvolvement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#jobInvolvement> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#jobInvolvement> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#employee> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#jobInvolvement> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#jobLevel
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#jobLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#jobLevel> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#jobLevel> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#employee> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#jobLevel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#jobSatisfaction
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#jobSatisfaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#jobSatisfaction> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#jobSatisfaction> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#employee> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#jobSatisfaction> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#maritalStatus
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#maritalStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#maritalStatus> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#maritalStatus> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#employee> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#maritalStatus> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#monthlyIncome
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#monthlyIncome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#monthlyIncome> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#monthlyIncome> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#employee> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#monthlyIncome> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#monthlyRate
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#monthlyRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#monthlyRate> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#monthlyRate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#employee> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#monthlyRate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#numCompaniesWorked
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#numCompaniesWorked> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#numCompaniesWorked> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#numCompaniesWorked> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#employee> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#numCompaniesWorked> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#over18
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#over18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#over18> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#over18> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#employee> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#over18> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#overTime
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#overTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#overTime> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#overTime> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#employee> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#overTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#percentSalaryHike
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#percentSalaryHike> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#percentSalaryHike> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#percentSalaryHike> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#employee> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#percentSalaryHike> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#performanceRating
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#performanceRating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#performanceRating> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#performanceRating> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#employee> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#performanceRating> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#relationshipSatisfaction
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#relationshipSatisfaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#relationshipSatisfaction> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#relationshipSatisfaction> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#employee> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#relationshipSatisfaction> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#roleName
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#roleName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#roleName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#roleName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#role> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#roleName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#standardHours
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#standardHours> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#standardHours> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#standardHours> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#employee> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#standardHours> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#stockOptionLevel
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#stockOptionLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#stockOptionLevel> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#stockOptionLevel> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#employee> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#stockOptionLevel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#totalWorkingYears
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#totalWorkingYears> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#totalWorkingYears> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#totalWorkingYears> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#employee> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#totalWorkingYears> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#trainingTimesLastYear
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#trainingTimesLastYear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#trainingTimesLastYear> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#trainingTimesLastYear> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#employee> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#trainingTimesLastYear> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#workLifeBalance
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#workLifeBalance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#workLifeBalance> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#workLifeBalance> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#employee> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#workLifeBalance> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#yearsAtCompany
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#yearsAtCompany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#yearsAtCompany> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#yearsAtCompany> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#employee> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#yearsAtCompany> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#yearsInCurrentRole
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#yearsInCurrentRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#yearsInCurrentRole> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#yearsInCurrentRole> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#employee> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#yearsInCurrentRole> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#yearsSinceLastPromotion
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#yearsSinceLastPromotion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#yearsSinceLastPromotion> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#yearsSinceLastPromotion> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#employee> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#yearsSinceLastPromotion> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#yearsWithCurrManager
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#yearsWithCurrManager> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#yearsWithCurrManager> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#yearsWithCurrManager> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#employee> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#yearsWithCurrManager> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.w3.org/2002/07/owl#topDataProperty
+<http://www.w3.org/2002/07/owl#topDataProperty> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.w3.org/2002/07/owl#topDataProperty> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#employee> .
+<http://www.w3.org/2002/07/owl#topDataProperty> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#department
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#department> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#department> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+# 
+# http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#employee
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#employee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#employee> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+# 
+# http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#role
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#role> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#role> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

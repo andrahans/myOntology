@@ -1,0 +1,184 @@
+{
+  "@context" : {
+    "jobSatisfaction" : {
+      "@id" : "http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#jobSatisfaction",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "role" : {
+      "@id" : "http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#role"
+    },
+    "yearsAtCompany" : {
+      "@id" : "http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#yearsAtCompany",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "department" : {
+      "@id" : "http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#department"
+    },
+    "maritalStatus" : {
+      "@id" : "http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#maritalStatus",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "education" : {
+      "@id" : "http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#education",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "envSatisfaction" : {
+      "@id" : "http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#envSatisfaction",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Thing" : {
+      "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "topDataProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topDataProperty",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "age" : {
+      "@id" : "http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#age",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "jobInvolvement" : {
+      "@id" : "http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#jobInvolvement",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRole" : {
+      "@id" : "http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#hasRole",
+      "@type" : "@id"
+    },
+    "overTime" : {
+      "@id" : "http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#overTime",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "relationshipSatisfaction" : {
+      "@id" : "http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#relationshipSatisfaction",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "empID" : {
+      "@id" : "http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#empID",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "distanceFromHome" : {
+      "@id" : "http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#distanceFromHome",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "yearsSinceLastPromotion" : {
+      "@id" : "http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#yearsSinceLastPromotion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "gender" : {
+      "@id" : "http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#gender",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "workLifeBalance" : {
+      "@id" : "http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#workLifeBalance",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "totalWorkingYears" : {
+      "@id" : "http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#totalWorkingYears",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "roleOf" : {
+      "@id" : "http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#roleOf",
+      "@type" : "@id"
+    },
+    "topObjectProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "@type" : "@id"
+    },
+    "monthlyRate" : {
+      "@id" : "http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#monthlyRate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "monthlyIncome" : {
+      "@id" : "http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#monthlyIncome",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "trainingTimesLastYear" : {
+      "@id" : "http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#trainingTimesLastYear",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "yearsInCurrentRole" : {
+      "@id" : "http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#yearsInCurrentRole",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "hasMember" : {
+      "@id" : "http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#hasMember",
+      "@type" : "@id"
+    },
+    "employee" : {
+      "@id" : "http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#employee"
+    },
+    "dailyRate" : {
+      "@id" : "http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#dailyRate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "jobLevel" : {
+      "@id" : "http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#jobLevel",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "deptName" : {
+      "@id" : "http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#deptName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "roleName" : {
+      "@id" : "http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#roleName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "stockOptionLevel" : {
+      "@id" : "http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#stockOptionLevel",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "numCompaniesWorked" : {
+      "@id" : "http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#numCompaniesWorked",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "performanceRating" : {
+      "@id" : "http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#performanceRating",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "standardHours" : {
+      "@id" : "http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#standardHours",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "jobOf" : {
+      "@id" : "http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#jobOf",
+      "@type" : "@id"
+    },
+    "educationField" : {
+      "@id" : "http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#educationField",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "over18" : {
+      "@id" : "http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#over18",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "attrition" : {
+      "@id" : "http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#attrition",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "memberOf" : {
+      "@id" : "http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#memberOf",
+      "@type" : "@id"
+    },
+    "hourlyRate" : {
+      "@id" : "http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#hourlyRate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "businessTravel" : {
+      "@id" : "http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#businessTravel",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "percentSalaryHike" : {
+      "@id" : "http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#percentSalaryHike",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "hasJob" : {
+      "@id" : "http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#hasJob",
+      "@type" : "@id"
+    },
+    "yearsWithCurrManager" : {
+      "@id" : "http://www.semanticweb.org/asus/ontologies/2024/6/employeehrd#yearsWithCurrManager",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    }
+  }
+}
